@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Mania</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f0e6d2, #e2e2e2);
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2, h3 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .music-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .music-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .music-box img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .audio-container {
+            margin-top: 10px;
+            width: 100%; 
+            box-sizing: border-box; 
+        }
+
+        audio {
+            width: 100%;
+            box-sizing: border-box; 
+        }
+
+        a {
+            color: #555;
+            padding: 10px 20px;
+            border: 1px solid #555;
+            margin: 10px;
+            display: inline-block;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        hr {
+            width: 50%;
+            margin: 20px auto;
+            border: 0;
+            border-top: 1px solid;
+        }
+
+        ul {
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Music Mania</h1>
+    
+    <h2>Most Popular Music Platform</h2>
+    <hr>
+
+    <div style="text-align: center;">
+        <a href="#">Home</a> | 
+        <a href="#">Category</a> | 
+        <a href="#">Pricing</a> | 
+        <a href="#">Copyright</a> | 
+        <a href="#">About</a> | 
+        <a href="#">Contact Us</a>
+    </div>
+    <hr>
+
+    <h2 >Today's Special</h2>
+
+    <div class="music-grid">
+        <div class="music-box">
+            <h3>O Maahi</h3>
+            <img src="8.jpg" alt="O Maahi">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Indian Film Pop | Artist: Arijit Singh</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Tum Se</h3>
+            <img src="10.jpg" alt="Tum Se">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Indian Film Pop | Artist: Arijit Singh, Amit Mishra</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Chaleya</h3>
+            <img src="9.jpg" alt="Chaleya">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Classic | Artist: Shilpa Rao, Arijit Singh</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Let Me Love You</h3>
+            <img src="7.jpg" alt="Let Me Love You">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Hip Hop | Artist: Jack Blue</p>
+        </div>
+    </div>
+
+    <h2 id="latest-music">Latest Music</h2>
+
+    <div class="music-grid">
+        <div class="music-box">
+            <h3>Zinda Banda</h3>
+            <img src="2.jpg" alt="Zinda Banda">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Rock | Artist: Anirudh Ravichander</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Chaleya</h3>
+            <img src="4.jpg" alt="Chaleya">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Romance | Artist: Arijit Singh</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Not Ramaiya Vastavaiya</h3>
+            <img src="3.jpg" alt="Not Ramaiya Vastavaiya">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Rock | Artist: Vishal Dadlani</p>
+        </div>
+
+        <div class="music-box">
+            <h3>Jawan Title Track</h3>
+            <img src="5.jpeg" alt="Jawan Title Track">
+            <div class="audio-container">
+                <audio src="" controls></audio>
+            </div>
+            <p>Genre: Pop | Artist: Rajakumari</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="category">Category</h2>
+    <ul>
+        <li><a href="#">Classical</a></li>
+        <li><a href="#">Rock</a></li>
+        <li><a href="#">Jazz</a></li>
+        <li><a href="#">Electronic</a></li>
+        <li><a href="#">Indie Music</a></li>
+        <li><a href="#">Hip Hop</a></li>
+        <li><a href="#">Rhythm and Blues</a></li>
+        <li><a href="#">Pop</a></li>
+        <li><a href="#">Folk</a></li>
+        <li><a href="#">LoFi</a></li>
+        <li><a href="#">HiFi</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="pricing">Pricing</h2>
+    <p>Individual accounts have free access, while Business accounts are paid. Refer to our price chart.</p>
+    <hr>
+
+    <h2 id="copyright">Copyright</h2>
+    <p>All rights reserved. Please read our policy.</p>
+    <hr>
+
+    <h2 id="about">About</h2>
+    <p>We are providing a top-class music platform. We present a wide range of music for all music lovers.</p>
+    <hr>
+
+    <h2 id="contact-us">Contact Us</h2>
+    <p><b>WorldOfSongs@gmail.com</b></p>
+
+</body>
+</html>
